@@ -1,0 +1,62 @@
+/* Google-font */
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display");
+
+/* Global */
+*{
+    margin: 0;
+    padding: 0;
+    background-origin:border-box;
+    font-family: "Raleway", sans-serif;
+}
+
+/* header */
+header{
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    background-color:#1f273e;
+}
+
+.nav-list{
+    position: absolute;
+    top: 40%;
+    right: 40%;
+}
+
+.nav-list li a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 25px;
+    font-weight: 600;
+}
+
+.nav-list li{
+    list-style: none;
+    display: inline-block;
+}
+
+/* intro */
+
+.intro{
+    padding: 100px 0;
+}
+.intro h1{
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.intro{
+    position: relative;
+    height: 500px;
+}
+
+.intro-cont{
+    position: absolute;
+    top: 40%;
+    left: 20%;
+}
+.intro-cont p{
+    letter-spacing: 1px;
+    line-height: 30px;
+}
